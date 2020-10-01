@@ -92,6 +92,17 @@ newPText[6].textContent = siteContent["contact"]["phone"];
 newPText[7].textContent = siteContent["contact"]["email"];
 newPText[8].textContent = siteContent["footer"]["copyright"];
 
+const navColor = document.querySelectorAll("a");
+navColor.forEach((ele) => {
+  ele.style.color = "green";
+});
+
+const newA1 = document.createElement("a");
+const newLink1 = document.createTextNode("Home");
+newA1.appendChild(newLink1);
+newA1.href = "index.html";
+document.body.appendChild("newA1");
+
 //broken code
 
 // h4Change.forEach((ele)=>{
