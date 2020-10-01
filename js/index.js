@@ -73,12 +73,19 @@ const newMiddleImg = document.getElementById("middle-img");
 newMiddleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
 
 // Not Sure where this code is off yet, but its making divs instead of h4s
-const newMainTopText = document.getElementsByClassName("text-content");
-newMainTopText[0].textContent = siteContent["main-content"]["features-h4"];
-newMainTopText[1].textContent = siteContent["main-content"]["about-h4"];
-newMainTopText[2].textContent = siteContent["main-content"]["services-h4"];
-newMainTopText[3].textContent = siteContent["main-content"]["product-h4"];
-newMainTopText[4].textContent = siteContent["main-content"]["vision-h4"];
+const newH4 = document.getElementsByTagName("h4");
+newH4[0].textContent = siteContent["main-content"]["features-h4"];
+newH4[1].textContent = siteContent["main-content"]["about-h4"];
+newH4[2].textContent = siteContent["main-content"]["services-h4"];
+newH4[3].textContent = siteContent["main-content"]["product-h4"];
+newH4[4].textContent = siteContent["main-content"]["vision-h4"];
+
+const newPText = document.getElementsByTagName("p");
+newPText[0].textContent = siteContent["main-content"]["features-content"];
+newPText[1].textContent = siteContent["main-content"]["about-content"];
+newPText[2].textContent = siteContent["main-content"]["services-content"];
+newPText[3].textContent = siteContent["main-content"]["product-content"];
+newPText[4].textContent = siteContent["main-content"]["vision-content"];
 
 //broken code
 
