@@ -79,6 +79,7 @@ newH4[1].textContent = siteContent["main-content"]["about-h4"];
 newH4[2].textContent = siteContent["main-content"]["services-h4"];
 newH4[3].textContent = siteContent["main-content"]["product-h4"];
 newH4[4].textContent = siteContent["main-content"]["vision-h4"];
+newH4[5].textContent = siteContent["contact"]["contact-h4"];
 
 const newPText = document.getElementsByTagName("p");
 newPText[0].textContent = siteContent["main-content"]["features-content"];
@@ -86,6 +87,10 @@ newPText[1].textContent = siteContent["main-content"]["about-content"];
 newPText[2].textContent = siteContent["main-content"]["services-content"];
 newPText[3].textContent = siteContent["main-content"]["product-content"];
 newPText[4].textContent = siteContent["main-content"]["vision-content"];
+newPText[5].textContent = siteContent["contact"]["address"];
+newPText[6].textContent = siteContent["contact"]["phone"];
+newPText[7].textContent = siteContent["contact"]["email"];
+newPText[8].textContent = siteContent["footer"]["copyright"];
 
 //broken code
 
