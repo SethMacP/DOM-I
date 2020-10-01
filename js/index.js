@@ -101,7 +101,7 @@ const newA1 = document.createElement("a");
 const newLink1 = document.createTextNode("Home");
 newA1.appendChild(newLink1);
 newA1.href = "index.html";
-document.body.appendChild("newA1");
+document.body.prependChild(newA1);
 
 //broken code
 
