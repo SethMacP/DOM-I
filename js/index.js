@@ -40,3 +40,47 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+//brought over code from the accidentally unforked copy I was working on.
+//brought over code from the accidentally unforked copy I was working on.
+//brought over code from the accidentally unforked copy I was working on.
+
+
+// const titleChange = document.getElementsByTagName("title");
+// titleChange.textContent = "Great Idea!";
+
+const navChange = document.getElementsByTagName("a");
+navChange[0].textContent = "Services";
+navChange[1].textContent = "Product";
+navChange[2].textContent = "Vision";
+navChange[3].textContent = "Features";
+navChange[4].textContent = "About";
+navChange[5].textContent = "Contact";
+
+const h1Change = document.getElementsByTagName("h1");
+h1Change[0].innerHTML = "DOM<br> Is<br> Awesome";
+
+const buttonChange = document.getElementsByTagName("button");
+buttonChange[0].textContent = "Get Started";
+
+const newCirclePic = document.getElementById("cta-img");
+newCirclePic.setAttribute("src", siteContent["cta"]["img-src"]);
+
+const mainTopText = document.get;
+
+
+
+const h4Change = document.getElementsByClassName("text-content");
+console.log("text-content");
+h4Change[0].textContent = siteContent["cta"]["main-content"][0];
+
+//broken code
+
+// h4Change.forEach((ele)=>{
+//   ele[i].innerHTML = siteContent["cta"]["main-content"][i+2]
+// })
+
+// const bigChange = document.getElementsByClassName("text-content");
+// bigChange.forEach((item)=>{
+//   item.h4.textContent = siteContent["cta"]["main-content"][2];
+
+// })
